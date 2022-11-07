@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: Poppins;
+    background-color: yellow;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 40px;
+    max-width: 90%;
+}
+
+.buttons img {
+    max-width: 150px;
+    padding: 30px;
+    background: transparent ;
+}
+
+.buttons button :hover {
+    border-color: darkcyan;
+}
+
+.title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 80px;
+    padding: 40px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 50px;
+    
+}
+
+.scores p {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.result {
+    text-align: center;
+    font-size: 30px;
+}
+
+.rules {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.rock .scissors .paper{
+    display:flex;
+}
+
+.playAgain {
+    display: flex;
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-bottom: 13px;
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    border-radius: 7px;
+    align-self: center;
+    font-size: 30px;
+}
