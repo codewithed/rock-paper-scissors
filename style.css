@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: greenyellow;
     margin: 0;
 }
 
@@ -71,4 +71,15 @@ footer a {
     text-align: center;
     font-size: 26px;
     font-weight: 300;
+}
+
+.rock .scissors .paper{
+    display:flex;
+}
+
+.playAgain {
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    border-radius: 7px;
 }
